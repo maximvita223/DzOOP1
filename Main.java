@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 
-public class les1 {
+public class Main {
     public static void main(String[] args) {
-        ArrayList<Product> productLst = new ArrayList<>();
         VendingMachineHotDrinks hotVenMach = new VendingMachineHotDrinks(productLst);
         Product coffee = new HotDrinksProduct("Coffee", 5, 50, 0, 0.3f, 50);
         Product greenTea = new HotDrinksProduct("Green Tea", 4, 40, 1, 0.5f, 40);
